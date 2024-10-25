@@ -1,0 +1,90 @@
+body {
+  /* background: #cec3e7; */
+  background-color: aliceblue;
+  display: flex;
+  justify-content: center;
+}
+* {
+  font-family: sans-serif,'Poppins'; 
+}
+h2 {
+  color: #fff;
+}
+.container {
+  width: 420px;
+  margin: auto;
+  padding: 10px;
+  text-align: center;
+  background-color: #1A1A40;
+  border-radius: 5px;
+  box-shadow: 3px 3px 20px black;
+}
+.taskInput {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container input {
+  width: 70%;
+  font-size: 22px;
+  border-radius: 5px;
+  border: none;
+  padding: 8px;
+}
+#AddButton{
+  width: 70px;
+  height: 35px;
+  border: none;
+  font-size: 12px;
+  background: #8758ff;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-left: -5px;
+}
+
+.taskData {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  margin-top: 15px;
+  border-radius: 5px;
+  margin-left: 20px;
+}
+
+.taskData span {
+  font-size: 23px;
+  color: aliceblue;
+  margin-left: 10px;
+}
+
+.taskData #markDoneCheckbox {
+  width: 15px;
+  height: 15px;
+  background-color: #1A1A40;
+  margin-right: 15px;
+  cursor: pointer;
+  margin-top: 5px;
+}
+.taskData #deleteIcon {
+  cursor: pointer;
+  color: aliceblue;
+  text-align: right;
+  font-size: 20px;
+  margin-left: auto;
+  margin-right: 28px;
+  margin-top: 3px;
+}
+
+#markAllDone {
+  width: 70px;
+  height: 35px;
+  border: none;
+  font-size: 14px;
+  background: #8758ff94;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-left: -5px;
+}
